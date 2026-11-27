@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Calen Engineering is an Ethiopian architecture and construction company led by founder Dawit Gudisa — delivering design, structural engineering and contracting across Ethiopia.">
+  <meta name="theme-color" content="#1A202C">
+  <title>Calen Engineering | Architecture &amp; Construction in Ethiopia</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans (headings) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Marks the document as JS-enabled before styles load (prevents reveal flicker). -->
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER / NAVIGATION
+       ============================================================ -->
+  <header class="site-header" id="site-header">
+    <div class="container site-header__inner">
+
+      <!-- Text + SVG logo -->
+      <a class="logo" href="#home" aria-label="Calen Engineering — home">
+        <svg class="logo__mark" viewBox="0 0 44 44" aria-hidden="true" focusable="false">
+          <path d="M5 39h34M10 39V15l12-9 12 9v24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+          <path d="M17 39V25h10v14M17 19h10" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+          <path class="logo__accent" d="M22 2v7" fill="none" stroke-width="2.6" stroke-linecap="round"/>
+        </svg>
+        <span class="logo__text">
+          <strong>CALEN</strong>
+          <span>ENGINEERING</span>
+        </span>
+      </a>
+
+      <!-- Mobile menu button -->
+      <button class="menu-toggle" id="menu-toggle" type="button"
+              aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <!-- Primary navigation (becomes a dropdown panel on mobile) -->
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+        <ul class="primary-nav__list">
+          <li><a class="nav-link is-active" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <a class="btn btn--primary btn--small primary-nav__cta" href="#contact">Request a Quote</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         HERO
+         ============================================================ -->
+    <section class="hero" id="home">
+      <div class="hero__media">
+        <img class="hero__image"
+             src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2000&q=80"
+             alt="Modern high-rise architecture with clean geometric lines" fetchpriority="high">
+        <div class="hero__overlay" aria-hidden="true"></div>
+      </div>
+
+      <div class="container hero__inner">
+        <div class="hero__content" data-reveal>
+          <p class="eyebrow eyebrow--light"><span class="eyebrow__line"></span> Addis Ababa · Ethiopia</p>
+          <h1>Architectural vision.<br><span class="text-accent">Structural excellence.</span></h1>
+          <p class="hero__lead">
+            From first sketch to final handover, Calen Engineering designs and builds spaces that
+            stand the test of time — combining thoughtful architecture with disciplined construction
+            across Ethiopia.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#projects">
+              Explore Projects
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11m-4-5 5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a class="btn btn--outline-light" href="#contact">Contact Us</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__scroll" aria-hidden="true">
+        <span>Scroll to explore</span>
+        <span class="hero__scroll-line"></span>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ABOUT + FOUNDER SPOTLIGHT + STATS
+         ============================================================ -->
+    <section class="section about" id="about">
+      <div class="container">
+
+        <!-- Company overview -->
+        <div class="about__grid">
+          <div class="about__content" data-reveal>
+            <p class="eyebrow"><span class="eyebrow__line"></span> Who We Are</p>
+            <h2 class="section__title">Built on integrity.<br>Driven by precision.</h2>
+            <p class="section__text">
+              Calen Engineering is an Ethiopian construction and architectural practice committed to
+              quality, safety and on-time delivery. We work with homeowners, developers and businesses
+              to turn ambitious ideas into durable, functional buildings.
+            </p>
+            <p class="section__text">
+              Our integrated approach keeps design and construction aligned from day one. Every detail —
+              from structural calculations to site supervision — is handled with the same standard of
+              care, no matter the scale of the project.
+            </p>
+
+            <ul class="about__values">
+              <li>
+                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m4 10 4 4 8-8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Quality materials and workmanship
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m4 10 4 4 8-8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Safety-first site practices
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m4 10 4 4 8-8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Transparent timelines and budgeting
+              </li>
+            </ul>
+
+            <a class="text-link" href="#services">
+              Discover our services
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11m-4-5 5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+
+          <div class="about__media" data-reveal>
+            <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80"
+                 alt="Construction team reviewing plans at an active building site" loading="lazy">
+            <div class="about__media-badge">
+              <strong>Est. in Ethiopia</strong>
+              <span>Built here, built to last</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Founder spotlight -->
+        <div class="founder" data-reveal>
+          <div class="founder__portrait">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=900&q=80"
+                 alt="Portrait of Dawit Gudisa, founder of Calen Engineering" loading="lazy">
+          </div>
+          <div class="founder__body">
+            <p class="eyebrow eyebrow--light"><span class="eyebrow__line"></span> Founder Spotlight</p>
+            <h3>Dawit Gudisa</h3>
+            <p class="founder__role">Founder, Principal Architect &amp; Contractor</p>
+            <p class="founder__text">
+              With dual expertise in architectural design and hands-on construction, Dawit bridges the
+              gap between blueprint and buildsite. His leadership ensures that every design decision is
+              practical, structurally sound and faithfully executed — from the first concept meeting to
+              the moment the keys are handed over.
+            </p>
+            <blockquote>“A great building is one where the architecture and the engineering speak the same language.”</blockquote>
+            <ul class="founder__tags">
+              <li>Architectural Design</li>
+              <li>Construction Delivery</li>
+              <li>Site Supervision</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Editable placeholder metrics -->
+        <div class="stats" data-reveal>
+          <div class="stats__item"><strong data-count="150">150+</strong><span>Projects Completed</span></div>
+          <div class="stats__item"><strong data-count="12">12</strong><span>Years of Experience</span></div>
+          <div class="stats__item"><strong data-count="24">24</strong><span>Licensed Engineers</span></div>
+          <div class="stats__item"><strong data-count="98">98%</strong><span>Client Satisfaction</span></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SERVICES
+         ============================================================ -->
+    <section class="section section--light services" id="services">
+      <div class="container">
+        <div class="section__heading section__heading--center" data-reveal>
+          <p class="eyebrow"><span class="eyebrow__line"></span> What We Do</p>
+          <h2 class="section__title">One team, from concept<br>to completion.</h2>
+          <p class="section__text section__text--center">
+            Integrated architectural, engineering and contracting services — delivered with clear
+            communication and accountability at every stage.
+          </p>
+        </div>
+
+        <div class="services__grid">
+
+          <!-- Service 1 -->
+          <article class="service-card" data-reveal>
+            <span class="service-card__icon">
+              <svg viewBox="0 0 32 32" aria-hidden="true">
+                <path d="M4 27h24M7 27V11l9-6 9 6v16M12 27v-8h8v8M12 14h8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16 2v4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <h3>Architectural Design &amp; 3D Visualization</h3>
+            <p>Concept to detailed drawings, with realistic 3D views that let you see your project before construction begins.</p>
+            <a class="service-card__link" href="#contact">Enquire <span aria-hidden="true">→</span></a>
+          </article>
+
+          <!-- Service 2 -->
+          <article class="service-card" data-reveal>
+            <span class="service-card__icon">
+              <svg viewBox="0 0 32 32" aria-hidden="true">
+                <path d="M4 28h24M8 28V12l8-6 8 6v16M8 16h16M14 28v-7h4v7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M25 12V9L16 3 7 9v3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <h3>General Contracting &amp; Building Construction</h3>
+            <p>End-to-end delivery with experienced site teams, reliable sourcing and disciplined schedule management.</p>
+            <a class="service-card__link" href="#contact">Enquire <span aria-hidden="true">→</span></a>
+          </article>
+
+          <!-- Service 3 -->
+          <article class="service-card" data-reveal>
+            <span class="service-card__icon">
+              <svg viewBox="0 0 32 32" aria-hidden="true">
+                <path d="M4 27h24M6 27 16 5l10 22M10 19h12M12.5 13h7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16 5v22" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <h3>Structural Engineering &amp; Supervision</h3>
+            <p>Sound structural solutions and on-site supervision to keep every build safe, compliant and true to design.</p>
+            <a class="service-card__link" href="#contact">Enquire <span aria-hidden="true">→</span></a>
+          </article>
+
+          <!-- Service 4 -->
+          <article class="service-card" data-reveal>
+            <span class="service-card__icon">
+              <svg viewBox="0 0 32 32" aria-hidden="true">
+                <path d="M9 5h14v24H9zM13 5V3h6v2M13 13l2 2 4-4M13 21l2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M22 12h4v16H9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <h3>Project Management &amp; Consultancy</h3>
+            <p>Cost planning, procurement guidance and progress oversight that keep your investment on track.</p>
+            <a class="service-card__link" href="#contact">Enquire <span aria-hidden="true">→</span></a>
+          </article>
+
+          <!-- Service 5 -->
+          <article class="service-card" data-reveal>
+            <span class="service-card__icon">
+              <svg viewBox="0 0 32 32" aria-hidden="true">
+                <path d="M4 26h24M7 26V13h11v13M18 17h7v9M11 26v-7h4v7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="m20 12 6-6 2 2-6 6-3 1z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <h3>Commercial &amp; Residential Renovations</h3>
+            <p>Thoughtful upgrades and adaptive reuse that bring new life to existing homes, offices and retail spaces.</p>
+            <a class="service-card__link" href="#contact">Enquire <span aria-hidden="true">→</span></a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FEATURED PROJECTS (FILTERABLE PORTFOLIO + MODAL)
+         ============================================================ -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section__heading section__heading--split" data-reveal>
+          <div>
+            <p class="eyebrow"><span class="eyebrow__line"></span> Selected Work</p>
+            <h2 class="section__title">Projects that speak<br>for themselves.</h2>
+          </div>
+          <p class="section__text">
+            A selection of residential, commercial and architectural work delivered across Ethiopia.
+            Select a category, then open any project for details.
+          </p>
+        </div>
+
+        <div class="projects__toolbar" data-reveal>
+          <div class="filters" role="group" aria-label="Filter projects by category">
+            <button class="filter-btn is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+            <button class="filter-btn" type="button" data-filter="residential" aria-pressed="false">Residential</button>
+            <button class="filter-btn" type="button" data-filter="commercial" aria-pressed="false">Commercial</button>
+            <button class="filter-btn" type="button" data-filter="architecture" aria-pressed="false">Architecture</button>
+          </div>
+          <p class="projects__count" id="projects-count" aria-live="polite">Showing 6 projects</p>
+        </div>
+
+        <div class="projects__grid" id="projects-grid">
+
+          <!-- Project 1 -->
+          <article class="project-card" role="button" tabindex="0"
+                   aria-label="View details for Modern Residential Villa in Bole"
+                   data-category="residential architecture"
+                   data-title="Modern Residential Villa in Bole"
+                   data-category-label="Residential"
+                   data-location="Bole, Addis Ababa"
+                   data-scope="Architectural design &amp; full build"
+                   data-year="2023"
+                   data-description="A contemporary family villa defined by clean lines, generous natural light and a seamless indoor-outdoor living area. Calen Engineering handled the concept, structural design and construction from start to finish."
+                   data-image="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+                   data-alt="Contemporary white villa with landscaping">
+            <div class="project-card__media">
+              <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
+                   alt="Contemporary white villa with landscaping" loading="lazy">
+              <span class="tag tag--overlay">Residential</span>
+            </div>
+            <div class="project-card__body">
+              <h3>Modern Residential Villa in Bole</h3>
+              <p>Private residence · Addis Ababa</p>
+              <span class="project-card__link">View details <span aria-hidden="true">↗</span></span>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card" role="button" tabindex="0"
+                   aria-label="View details for Commercial Mixed-Use Complex"
+                   data-category="commercial"
+                   data-title="Commercial Mixed-Use Complex"
+                   data-category-label="Commercial"
+                   data-location="Kazanchis, Addis Ababa"
+                   data-scope="Design, structural engineering &amp; contracting"
+                   data-year="2024"
+                   data-description="A vibrant mixed-use development combining retail floors with modern office suites. The project required careful coordination of services, façade design and phased construction in a busy urban district."
+                   data-image="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80"
+                   data-alt="Glass-fronted commercial high-rise building">
+            <div class="project-card__media">
+              <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80"
+                   alt="Glass-fronted commercial high-rise building" loading="lazy">
+              <span class="tag tag--overlay">Commercial</span>
+            </div>
+            <div class="project-card__body">
+              <h3>Commercial Mixed-Use Complex</h3>
+              <p>Retail &amp; offices · Addis Ababa</p>
+              <span class="project-card__link">View details <span aria-hidden="true">↗</span></span>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card" role="button" tabindex="0"
+                   aria-label="View details for Industrial Warehouse &amp; Logistics Hub"
+                   data-category="commercial"
+                   data-title="Industrial Warehouse &amp; Logistics Hub"
+                   data-category-label="Commercial"
+                   data-location="Dukem, Oromia"
+                   data-scope="Structural design &amp; construction supervision"
+                   data-year="2022"
+                   data-description="A high-clearance warehouse and distribution facility built for efficient goods movement. Long-span steel framing and a practical layout deliver durability and flexibility for future expansion."
+                   data-image="https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=1200&q=80"
+                   data-alt="Large industrial warehouse interior with organized storage racks">
+            <div class="project-card__media">
+              <img src="https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=900&q=80"
+                   alt="Large industrial warehouse interior with organized storage racks" loading="lazy">
+              <span class="tag tag--overlay">Commercial</span>
+            </div>
+            <div class="project-card__body">
+              <h3>Industrial Warehouse &amp; Logistics Hub</h3>
+              <p>Industrial · Oromia</p>
+              <span class="project-card__link">View details <span aria-hidden="true">↗</span></span>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card" role="button" tabindex="0"
+                   aria-label="View details for Contemporary Office Interior Fit-Out"
+                   data-category="architecture commercial"
+                   data-title="Contemporary Office Interior Fit-Out"
+                   data-category-label="Architecture"
+                   data-location="Dequewe, Addis Ababa"
+                   data-scope="Interior architecture &amp; project management"
+                   data-year="2024"
+                   data-description="A workplace transformation focused on collaboration, daylight and material warmth. Bespoke joinery, smart lighting and flexible meeting zones create a calm, productive environment for a growing team."
+                   data-image="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80"
+                   data-alt="Bright contemporary office interior with desks and natural light">
+            <div class="project-card__media">
+              <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80"
+                   alt="Bright contemporary office interior with desks and natural light" loading="lazy">
+              <span class="tag tag--overlay">Architecture</span>
+            </div>
+            <div class="project-card__body">
+              <h3>Contemporary Office Interior Fit-Out</h3>
+              <p>Workplace · Addis Ababa</p>
+              <span class="project-card__link">View details <span aria-hidden="true">↗</span></span>
+            </div>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="project-card" role="button" tabindex="0"
+                   aria-label="View details for Terraced Family Housing Development"
+                   data-category="residential"
+                   data-title="Terraced Family Housing Development"
+                   data-category-label="Residential"
+                   data-location="Bole Michael, Addis Ababa"
+                   data-scope="Master planning, design &amp; build"
+                   data-year="2021"
+                   data-description="A thoughtfully planned cluster of terraced homes that makes efficient use of urban land while preserving privacy and community space. Repeatable design details helped control cost without sacrificing character."
+                   data-image="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80"
+                   data-alt="Modern terraced residential apartment buildings">
+            <div class="project-card__media">
+              <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=900&q=80"
+                   alt="Modern terraced residential apartment buildings" loading="lazy">
+              <span class="tag tag--overlay">Residential</span>
+            </div>
+            <div class="project-card__body">
+              <h3>Terraced Family Housing Development</h3>
+              <p>Housing · Addis Ababa</p>
+              <span class="project-card__link">View details <span aria-hidden="true">↗</span></span>
+            </div>
+          </article>
+
+          <!-- Project 6 -->
+          <article class="project-card" role="button" tabindex="0"
+                   aria-label="View details for Heritage-Inspired Community Center"
+                   data-category="architecture"
+                   data-title="Heritage-Inspired Community Center"
+                   data-category-label="Architecture"
+                   data-location="Hawassa, Sidama"
+                   data-scope="Architectural concept &amp; construction"
+                   data-year="2023"
+                   data-description="A civic gathering space that reinterpreted local architectural cues in a contemporary language. Deep overhangs, natural ventilation and durable finishes suit the climate while welcoming the whole community."
+                   data-image="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1200&q=80"
+                   data-alt="Modern public building with geometric concrete architecture">
+            <div class="project-card__media">
+              <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=900&q=80"
+                   alt="Modern public building with geometric concrete architecture" loading="lazy">
+              <span class="tag tag--overlay">Architecture</span>
+            </div>
+            <div class="project-card__body">
+              <h3>Heritage-Inspired Community Center</h3>
+              <p>Civic · Hawassa</p>
+              <span class="project-card__link">View details <span aria-hidden="true">↗</span></span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         OUR PROCESS
+         ============================================================ -->
+    <section class="section section--light process" id="process">
+      <div class="container">
+        <div class="section__heading section__heading--center" data-reveal>
+          <p class="eyebrow"><span class="eyebrow__line"></span> How We Work</p>
+          <h2 class="section__title">A clear path from idea<br>to keys in hand.</h2>
+          <p class="section__text section__text--center">
+            Four focused stages keep expectations aligned and construction moving forward — without
+            surprises along the way.
+          </p>
+        </div>
+
+        <ol class="process__grid">
+          <li class="process__step" data-reveal>
+            <span class="process__number">01</span>
+            <h3>Consultation</h3>
+            <p>We listen to your goals, site conditions and budget, then outline the best route forward.</p>
+          </li>
+          <li class="process__step" data-reveal>
+            <span class="process__number">02</span>
+            <h3>Architectural Design</h3>
+            <p>Concepts become detailed drawings, 3D visualizations and coordinated structural plans.</p>
+          </li>
+          <li class="process__step" data-reveal>
+            <span class="process__number">03</span>
+            <h3>Construction &amp; Execution</h3>
+            <p>Our site team manages procurement, craftsmanship and progress against agreed milestones.</p>
+          </li>
+          <li class="process__step" data-reveal>
+            <span class="process__number">04</span>
+            <h3>Quality Inspection &amp; Handover</h3>
+            <p>Final checks, documentation and a walkthrough ensure everything meets the agreed standard.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACT & QUOTE
+         ============================================================ -->
+    <section class="section contact" id="contact">
+      <div class="container contact__grid">
+
+        <!-- Contact details -->
+        <div class="contact__details" data-reveal>
+          <p class="eyebrow"><span class="eyebrow__line"></span> Get In Touch</p>
+          <h2 class="section__title">Let's build<br>something lasting.</h2>
+          <p class="section__text">
+            Tell us about your project and our team will get back to you with next steps. We take on
+            residential, commercial and civil works across Ethiopia.
+          </p>
+
+          <ul class="contact__list">
+            <li>
+              <span class="contact__icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11Z" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="10" r="2.5" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>
+              </span>
+              <div><strong>Office</strong><span>Addis Ababa, Ethiopia</span></div>
+            </li>
+            <li>
+              <span class="contact__icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l1.5 4-2 1.5a13 13 0 0 0 6 6L16 13.5l4 1.5v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+              </span>
+              <div><strong>Phone</strong><span>+251 11 XXX XXXX</span><span>+251 9XX XXX XXX</span></div>
+            </li>
+            <li>
+              <span class="contact__icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m3 7 9 6 9-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+              </span>
+              <div><strong>Email</strong><span><a href="mailto:info@calenengineering.com">info@calenengineering.com</a></span></div>
+            </li>
+            <li>
+              <span class="contact__icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7v5l3.5 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+              </span>
+              <div><strong>Working Hours</strong><span>Mon – Fri: 8:30 AM – 5:30 PM</span><span>Sat: 9:00 AM – 1:00 PM</span></div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Quote form -->
+        <div class="contact__form-wrap" data-reveal>
+          <form class="quote-form" id="quote-form" novalidate>
+
+            <div class="form__confirmation" id="form-confirmation" role="status" hidden>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m7.5 12.3 3 3 6-6.3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <div>
+                <strong>Thank you — your inquiry has been received.</strong>
+                <p>Our team will review your project and get back to you within one business day.</p>
+              </div>
+            </div>
+
+            <div class="quote-form__header">
+              <h3>Request a Quote</h3>
+              <p>Fields marked * are required.</p>
+            </div>
+
+            <div class="form__row">
+              <div class="form__field">
+                <label for="full-name">Full Name *</label>
+                <input type="text" id="full-name" name="fullName" placeholder="Your full name"
+                       autocomplete="name" required minlength="2" aria-describedby="full-name-error">
+                <p class="form__error" id="full-name-error"></p>
+              </div>
+              <div class="form__field">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com"
+                       autocomplete="email" required aria-describedby="email-error">
+                <p class="form__error" id="email-error"></p>
+              </div>
+            </div>
+
+            <div class="form__row">
+              <div class="form__field">
+                <label for="phone">Phone *</label>
+                <input type="tel" id="phone" name="phone" placeholder="+251 9XX XXX XXX"
+                       autocomplete="tel" required aria-describedby="phone-error">
+                <p class="form__error" id="phone-error"></p>
+              </div>
+              <div class="form__field">
+                <label for="project-type">Project Type *</label>
+                <select id="project-type" name="projectType" required aria-describedby="project-type-error">
+                  <option value="">Select a project type</option>
+                  <option value="residential">Residential Design &amp; Build</option>
+                  <option value="commercial">Commercial Construction</option>
+                  <option value="structural">Structural Engineering</option>
+                  <option value="renovation">Renovation &amp; Remodeling</option>
+                  <option value="consultancy">Project Consultancy</option>
+                  <option value="other">Other</option>
+                </select>
+                <p class="form__error" id="project-type-error"></p>
+              </div>
+            </div>
+
+            <div class="form__field">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" rows="5"
+                        placeholder="Tell us about your project, location and timeline..."
+                        required minlength="10" aria-describedby="message-error"></textarea>
+              <p class="form__error" id="message-error"></p>
+            </div>
+
+            <button class="btn btn--primary btn--full" type="submit">
+              Send Inquiry
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11m-4-5 5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__grid">
+
+        <div class="footer-brand">
+          <a class="logo" href="#home" aria-label="Calen Engineering — home">
+            <svg class="logo__mark" viewBox="0 0 44 44" aria-hidden="true" focusable="false">
+              <path d="M5 39h34M10 39V15l12-9 12 9v24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+              <path d="M17 39V25h10v14M17 19h10" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+              <path class="logo__accent" d="M22 2v7" fill="none" stroke-width="2.6" stroke-linecap="round"/>
+            </svg>
+            <span class="logo__text"><strong>CALEN</strong><span>ENGINEERING</span></span>
+          </a>
+          <p>
+            An Ethiopian architecture and construction company delivering thoughtful design,
+            sound engineering and dependable building services from blueprint to handover.
+          </p>
+          <div class="socials" aria-label="Social media">
+            <a href="#" aria-label="Calen Engineering on Facebook">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8a1 1 0 0 1 1-1Z" fill="currentColor"/></svg>
+            </a>
+            <a href="#" aria-label="Calen Engineering on LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 9h3v11H5zM6.5 4a1.7 1.7 0 1 1 0 3.4 1.7 1.7 0 0 1 0-3.4ZM10 9h3v1.5h.1A3.3 3.3 0 0 1 16 8.8c3 0 3.6 1.8 3.6 4.4V20h-3v-6c0-1.5 0-3.2-2-3.2s-2.3 1.5-2.3 3.1V20h-3z" fill="currentColor"/></svg>
+            </a>
+            <a href="#" aria-label="Calen Engineering on Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="3.6" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17" cy="7.2" r="1" fill="currentColor"/></svg>
+            </a>
+            <a href="#" aria-label="Calen Engineering on X">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#services">Architectural Design</a></li>
+            <li><a href="#services">General Contracting</a></li>
+            <li><a href="#services">Structural Engineering</a></li>
+            <li><a href="#services">Project Management</a></li>
+            <li><a href="#services">Renovations</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul class="footer-contact">
+            <li>Addis Ababa, Ethiopia</li>
+            <li><a href="tel:+25111XXXXXXX">+251 11 XXX XXXX</a></li>
+            <li><a href="tel:+2519XXXXXXXX">+251 9XX XXX XXX</a></li>
+            <li><a href="mailto:info@calenengineering.com">info@calenengineering.com</a></li>
+            <li>Mon – Fri, 8:30 AM – 5:30 PM</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="site-footer__bottom">
+        <p>© <span id="current-year">2026</span> Calen Engineering. All rights reserved.</p>
+        <a href="#home" class="back-to-top">Back to top <span aria-hidden="true">↑</span></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       PROJECT DETAIL MODAL (populated by JavaScript)
+       ============================================================ -->
+  <div class="modal" id="project-modal" hidden>
+    <div class="modal__backdrop" data-close-modal></div>
+    <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-description">
+      <button class="modal__close" type="button" aria-label="Close project details" data-close-modal>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <div class="modal__media">
+        <img id="modal-image" src="" alt="">
+      </div>
+      <div class="modal__body">
+        <span class="tag" id="modal-category"></span>
+        <h3 id="modal-title"></h3>
+        <p class="modal__description" id="modal-description"></p>
+        <dl class="modal__meta">
+          <div><dt>Location</dt><dd id="modal-location"></dd></div>
+          <div><dt>Scope</dt><dd id="modal-scope"></dd></div>
+          <div><dt>Year</dt><dd id="modal-year"></dd></div>
+        </dl>
+        <a class="btn btn--primary btn--small" href="#contact" data-close-modal>Discuss a similar project</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
